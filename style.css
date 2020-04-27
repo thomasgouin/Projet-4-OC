@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/la-chouette-agence-webdesign-maquettage.jpg");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -818,7 +818,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-webdesign-maquettage.jpg");
 }
 
 .bg-presentation {
