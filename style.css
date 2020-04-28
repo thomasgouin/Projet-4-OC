@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -677,7 +677,18 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
+}
+
+.citation {
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #99380B; 
+}
+.citation-source{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .tight-width-whitespace {
@@ -722,13 +733,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
-}
 
 .icons {
     margin-bottom: 14px;
@@ -771,20 +775,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #99380B;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #99380B;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #99380B!important;
     color: #FFFFFF!important;
 }
 
@@ -797,11 +801,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #99380B!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #99380B!important;
 }
 
 .icon-dark-slate-blue {
