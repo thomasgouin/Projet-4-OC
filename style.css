@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(163, 161, 161, 0.8);
 }
 
 .d-bloc button:hover {
@@ -677,18 +677,7 @@ a {
 }
 
 p {
-    font-size: 15px;
-}
-
-.citation {
-    font-size: 20px;
-    font-style: oblique;
-    font-weight: bold;
-    color: #99380B; 
-}
-.citation-source{
-    font-weight: bold;
-    text-decoration: underline;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -757,7 +746,7 @@ h3 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(100, 89, 58, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -779,7 +768,7 @@ h3 {
 }
 
 .tc-white {
-    color: #FFF!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
