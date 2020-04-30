@@ -79,18 +79,22 @@
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="https://thomasgouin.github.io/chouette-agence/index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
-						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						<a class="navbar-brand" href="https://thomasgouin.github.io/chouette-agence/index.html">
+							<img src="img/la-chouette-agence.png" alt="logo de la chouette agence entrerpsie de webdesign" height="40" />
+						</a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="menu">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
 						</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
-								<a href="https://thomasgouin.github.io/chouette-agence/index.html" title="Retourner à l'accueil">Accueil</a>
+								<a class="active" href="/index.html" title="Retourner à l'accueil">Accueil</a>
 							</li>
 							<li>
-								<a href="https://thomasgouin.github.io/chouette-agence/contact.html" title="Nous contacter">Contact</a>
+								<a href="contact.html" title="Nous contacter">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -122,7 +126,7 @@
 			<div class="container bloc-md">
 				<div class="row">
 					<div class="col-sm-12 text-center">
-						<h2> Spécilisés en webdesign, nous aidons les entreprises à être visibles sur internet</h2>
+						<h2> Spécilisés en UX et UI, nous aidons les entreprises à être visibles sur internet</h2>
 					</div>
 				</div>
 				<div class="row voffset-lg med-width-whitespace">
@@ -163,7 +167,7 @@
 				<div class="row voffset-lg voffset">
 					<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 						<blockquote>
-							<p class="citation">La chouette agence est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon.</p>
+							<p class="citation">" La chouette agence est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon. "</p>
 							<footer class="citation-source">Maxime Guibart,<cite> PDG de A vos fourchettes</cite></footer>
 						</blockquote>
 
@@ -200,7 +204,14 @@
 				</div>
 				<div class="row tight-width-whitespace portfolio-row">
 					<article class="col-sm-6">
-						<a href="#" data-lightbox="img/chouette-agence-webdesign-journal.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/chouette-agence-webdesign-journal.jpg" alt="Webdesign d'un journal local à Lyon" class="img-responsive portfolio-thumb" /></a>
+						<a 
+							href="#" 
+							data-lightbox="img/chouette-agence-webdesign-journal.jpg" 
+							data-gallery-id="gallery-1" 
+							data-caption="Refonte d'un site web pour un journal local" 
+							data-frame="snapshot-lb">
+							<img src="img/chouette-agence-webdesign-journal.jpg" alt="Webdesign d'un journal local à Lyon" class="img-responsive portfolio-thumb" />
+						</a>
 						<h3 class="mg-md text-center">
 							Refonte d'un site web pour un journal local
 						</h3>
@@ -246,7 +257,7 @@
 		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 			<div class="container bloc-lg">
 				<div class="row">
-					<p class="mg-md text-center tc-white">
+					<p class="mg-md text-center tc-white p-bloc-5">
 						Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 					</p>
 					<div class="col-sm-12 text-center">
@@ -300,10 +311,10 @@
 	<!-- Principal conteneur END -->
 
 	<!-- Scripts en fin de document pour permettre le chargement rapide du html -->
-	<script src="./js/jquery-2.1.0.js" async></script>
-	<script src="./js/bootstrap.js" async></script>
-	<script src="./js/blocs.js" async></script>
-	<script src="./js/jquery.touchSwipe.js" async></script>
-	<script src="./js/gmaps.js" async></script>
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js" defer></script>
 </body>
 </html>
