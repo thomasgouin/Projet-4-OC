@@ -930,8 +930,8 @@ h3 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -939,7 +939,7 @@ h3 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+        float: none;
     }
     .navbar.row {
         margin-left: 0;
@@ -964,7 +964,7 @@ h3 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
+        margin: 5px 0 0 10px;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
@@ -1051,11 +1051,16 @@ h3 {
 	address p {
 		font-size: 22px;
 		line-height: 1.3;
-	}
+    }
+    
+    .imageclient-centre{
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 	.map-frame {
 		width: 100%;
-		border: 0!important;
+		border: 0;
 	}
     .close-lightbox {
         display: inline-block;
