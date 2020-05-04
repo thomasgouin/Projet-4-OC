@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
     opacity: 1;
 
 }
@@ -68,10 +68,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
 }
 
 .bg-repeat {
@@ -360,7 +360,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -420,7 +420,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: none!important;
+    background: none;
     display: block;
     padding: 14px 15px;
 }
@@ -447,7 +447,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!important;
+    margin: 6px -5px 0 0;
     float: right;
 }
 
@@ -477,7 +477,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: none;
 }
 
 .btn-rd {
@@ -492,11 +492,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px;
 }
 
 .sm-shadow {
@@ -705,6 +705,7 @@ p {
 .citation-source{
     font-size: 16px;
     font-weight: bold;
+    color: #364577;
 }
 
 .p-bloc-5{
@@ -725,7 +726,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -746,7 +747,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -762,7 +763,7 @@ h3 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -785,7 +786,7 @@ h3 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: underline;
 }
 
 .bgc-white {
@@ -806,33 +807,33 @@ h3 {
 
 .btn-atomic-tangerine {
     background: #99380B;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F3976C!important;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #99380B!important;
+    color: #99380B;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
