@@ -20,3 +20,8 @@
 
 ErrorDocument 404  "Oups vous êtes dans le côté obscur de la force, cette page n'existe pas..." 
 ErrorDocument 401  "Avant de devenir maitre Jedi, le padawan doit retenir son mot de passe... Essaie encore, la force est en toi !"
+
+RedirectPermanent https://thomasgouin.github.io/chouette-agence/index.html https://www.thomasgouin.github.io/chouette-agence/index.html
+
+RedirectPermanent https://thomasgouin.github.io/chouette-agence/contact.html https://www.thomasgouin.github.io/chouette-agence/contact.html
+
